@@ -1,0 +1,24 @@
+{
+  "name": "debts_resolver_bot",
+  "version": "1.0.0",
+  "description": "Telegram bot, that helps groups of people track all their debt relations and resolve them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexTogar/debts_resolver_bot.git"
+  },
+  "author": "Alexandr Smirnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexTogar/debts_resolver_bot/issues"
+  },
+  "homepage": "https://github.com/AlexTogar/debts_resolver_bot#readme",
+  "dependencies": {
+    "telegraf": "^4.11.2"
+  },
+  "type": "module"
+}
