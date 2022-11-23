@@ -11,4 +11,8 @@ bot.command('new', async (ctx) => {
   await ctx.reply('you sent:' + ctx.message.text);
 });
 
+bot.command('pay', async (ctx) => {
+  await ctx.reply(`${JSON.stringify(ctx)}`);
+});
+
 bot.launch();
