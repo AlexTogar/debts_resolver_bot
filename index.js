@@ -7,4 +7,8 @@ bot.on('text', async (ctx) => {
   await ctx.reply(`Hello`);
 });
 
+bot.command('new', async (ctx) => {
+  await ctx.reply('you sent:' + ctx.message.text);
+});
+
 bot.launch();
