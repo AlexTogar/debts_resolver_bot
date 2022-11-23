@@ -7,12 +7,6 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 //   await ctx.reply(`Hello`);
 // });
 
-bot.command('new', async (ctx) => {
-  await ctx.reply('you sent:' + ctx.message.text);
-});
-
-bot.command('pay', async (ctx) => {
-  await ctx.reply(`${JSON.stringify(ctx)}`);
-});
+bot.telegram.sendMessage(270073906, 'hello))))');
 
 bot.launch();
