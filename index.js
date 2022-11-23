@@ -4,7 +4,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 
 bot.on('text', async (ctx) => {
   // Using context shortcut
-  await ctx.reply(`Hello ${ctx.state.role}`);
+  await ctx.reply(`Hello`);
 });
 
 bot.launch();
